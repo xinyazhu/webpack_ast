@@ -11,8 +11,11 @@ Forked from <https://gitcode.net/zjq592767809/webpack_ast>
 
 比如：执行`node webpack.js -l jiazaiqi.js -m mokuai.js -o target.js`生成目标js
 创建一个新的js引入并执行
-···
+```
 let dd = require("./target")
 
 console.log(dd(113)());
-···
+
+
+
+```
